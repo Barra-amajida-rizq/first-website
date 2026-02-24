@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Amajida | Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Barra Amajida Rizq</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-target="about">About</a></li>
+                <li><a href="#portfolio" class="nav-link" data-target="portfolio">Portfolio</a></li>
+                <li><a href="#certificates" class="nav-link" data-target="certificates">Certificate</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=6285150542469&text&type=phone_number&app_absent=0" target="_blank" class="external-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="intro">
+                        <p class="greeting">Hello I'm</p>
+                        <h2 class="name">Barra Amajida Rizq</h2>
+                        <p class="description">I'm a Student in Information System Major</p>
+                        <p class="university">at Gunadarma University</p>
+                        <div class="hero-buttons">
+                            <a href="#about" class="cta-button nav-link" data-target="about">
+                                <span>Learn More About Me</span>
+                            </a>
+                            <a href="#portfolio" class="cta-button secondary-button nav-link" data-target="portfolio">
+                                <span>View My Work</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="photo-container">
+                        <img src="assets/img/my-self.jpg" alt="Barra Amajida Rizq" class="profile-photo">
+                    </div>
+                </div>
+                
+                <!-- Scroll indicator -->
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <p class="scroll-text">Scroll to explore</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-text">About Me</span>
+                </h2>
+                <div class="about-content">
+                    <p class="about-text">I am a passionate Information Systems student at Gunadarma University with interest in web development, data analysis, and technology solutions. I'm constantly learning and improving my skills to become a professional in the IT field.</p>
+                    <div class="skills">
+                        <h3 class="skills-title">Skills & Interests</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">
+                                <span>Web Development</span>
+                            </li>
+                            <li class="skill-item">
+                                <span>Data Analysis</span>
+                            </li>
+                            <li class="skill-item">
+                                <span>artificial intelligence</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-text">My Portfolio</span>
+                </h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="assets/img/web-development.png" alt="Web Development Project" class="project-screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-item-title">Web Development Project</h3>
+                            <p class="portfolio-item-desc">Modern responsive portfolio website with Interaktif UI</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <p><a href="https://github.com/Barra-amajida-rizq" class="tag-link" target="_blank">Click, for more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item" data-category="data">
+                        <div class="portfolio-image">
+                            <img src="assets/img/data-analysis.png" alt="Data Analysis Project" class="project-screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-item-title">Data Analysis Project</h3>
+                            <p class="portfolio-item-desc">Data visualization and business insights dashboard</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Data Visualization</span>
+                                <p><a href="https://github.com/Barra-amajida-rizq" class="tag-link" target="_blank">Click, for more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <img src="assets/img/prompting.png" alt="System Design Project" class="project-screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-item-title">Prompting</h3>
+                            <p class="portfolio-item-desc">Create a watch website using HTML, CSS, and JS. Javascript coding with the help of Gemini AI.</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">Gemini AI</span>
+                                <p><a href="https://github.com/Barra-amajida-rizq" class="tag-link" target="_blank">Click, for more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certificates" class="section certificates-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-text">My Certificates</span>
+                </h2>
+        
+                <div class="certificates-grid">
+                <!-- Certificate 1 -->
+                    <div class="certificate-item">
+                        <div class="certificate-image">
+                        <img src="assets/img/dicoding-prompt-enginer.jpg" alt="Web Development Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon"></span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Prompt Enginering Untuk Software Deevloper</h3>
+                        <p class="certificate-issuer">issued by · Dicoding Academy</p>
+                        <p class="certificate-date">2025</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">AI</span>
+                        </div>
+                        <a href="https://www.dicoding.com/certificates/L4PQ2K6KOZO1" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img src="assets/img/sertifikat_course_python-1.jpg" alt="Data Analysis Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon"></span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Belajar Dasar Python</h3>
+                        <p class="certificate-issuer">issued by · Dicoding Academy</p>
+                        <p class="certificate-date">2025</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">Python</span>
+                        </div>
+                        <a href="https://www.dicoding.com/certificates/QLZ96YN47Z5D" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img src="assets/img/ai sertifikat-1.jpg" alt="UI/UX Design Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon"></span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Belajar Dasar AI</h3>
+                        <p class="certificate-issuer">issued by · Dicoding Academy</p>
+                        <p class="certificate-date">2025</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">Meachine Learning</span>
+                        </div>
+                        <a href="https://www.dicoding.com/certificates/JLX15Q0E5Z72" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img src="assets/img/certificate-4.jpg" alt="Database Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon">💾</span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Database Management</h3>
+                        <p class="certificate-issuer">issued by · Oracle Academy</p>
+                        <p class="certificate-date">2023</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">MySQL</span>
+                            <span class="cert-tag">PostgreSQL</span>
+                            <span class="cert-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>-->
+
+                <!-- Certificate 5 
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img src="assets/img/certificate-5.jpg" alt="Information Systems Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon">💻</span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Information Systems Analysis</h3>
+                        <p class="certificate-issuer">issued by · Gunadarma University</p>
+                        <p class="certificate-date">2024</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">System Design</span>
+                            <span class="cert-tag">UML</span>
+                            <span class="cert-tag">ERD</span>
+                        </div>
+                        <a href="#" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>-->
+
+                <!-- Certificate 6 
+                <div class="certificate-item">
+                    <div class="certificate-image">
+                        <img src="assets/img/certificate-6.jpg" alt="Project Management Certificate" class="certificate-img">
+                        <div class="certificate-overlay">
+                            <span class="certificate-icon">📋</span>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">IT Project Management</h3>
+                        <p class="certificate-issuer">issued by · Microsoft</p>
+                        <p class="certificate-date">2023</p>
+                        <div class="certificate-tags">
+                            <span class="cert-tag">Agile</span>
+                            <span class="cert-tag">Scrum</span>
+                            <span class="cert-tag">JIRA</span>
+                        </div>
+                        <a href="#" class="certificate-link" target="_blank">View Certificate →</a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Barra Amajida Rizq. All rights reserved.</p>
+            <p>Connect with me: <a href="https://api.whatsapp.com/send/?phone=6285150542469&text&type=phone_number&app_absent=0" target="_blank">Contact</a></p>
+        </div>
+    </footer>
+    
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-top-btn" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+    
+    <!-- JavaScript -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
