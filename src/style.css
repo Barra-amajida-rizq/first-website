@@ -44,6 +44,14 @@ nav ul {
     padding: 0;
 }
 
+.nav-link {
+    padding: 10px 0;
+}
+
+.external-link {
+    height: 35px;
+}
+
 li a {
     display: inline-block;
     transition: all 0.3s ease;
