@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
@@ -10,6 +10,7 @@
     <title>Barra Amajida | Portfolio</title>
 </head>
 <body>
+    <!--Navbar-->
     <header>
         <h1 class="logo">Barra Amajida Rizq</h1>
         <nav>
@@ -18,11 +19,13 @@
                 <li><a href="#about" class="nav-link" data-target="about">About</a></li>
                 <li><a href="#portfolio" class="nav-link" data-target="portfolio">Portfolio</a></li>
                 <li><a href="#certificates" class="nav-link" data-target="certificates">Certificate</a></li>
-                <li><a href="https://api.whatsapp.com/send/?phone=6285150542469&text&type=phone_number&app_absent=0" target="_blank" class="external-link">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/barra-amajida-03249b35a/" target="_blank" class="external-link">
+                    <img src="src/img/icons8-linkedin-50.png">
+                </a></li>
             </ul>
         </nav>
     </header>
-    
+    <!--Hero section-->
     <main>
         <section id="home" class="section hero-section">
             <div class="container">
@@ -42,7 +45,7 @@
                         </div>
                     </div>
                     <div class="photo-container">
-                        <img src="assets/img/my-self.jpg" alt="Barra Amajida Rizq" class="profile-photo">
+                        <img src="src/img/my-self.jpg" alt="Barra Amajida Rizq" class="profile-photo">
                     </div>
                 </div>
                 
@@ -55,7 +58,7 @@
                 </div>
             </div>
         </section>
-        
+        <!--About Section-->
         <section id="about" class="section about-section">
             <div class="container">
                 <h2 class="section-title">
@@ -80,7 +83,7 @@
                 </div>
             </div>
         </section>
-        
+        <!--Portofolio Section-->
         <section id="portfolio" class="section portfolio-section">
             <div class="container">
                 <h2 class="section-title">
@@ -89,7 +92,7 @@
                 <div class="portfolio-grid">
                     <div class="portfolio-item" data-category="web">
                         <div class="portfolio-image">
-                            <img src="assets/img/web-development.png" alt="Web Development Project" class="project-screenshot">
+                            <img src="src/img/web-development.png" alt="Web Development Project" class="project-screenshot">
                         </div>
                         <div class="portfolio-content">
                             <h3 class="portfolio-item-title">Web Development Project</h3>
@@ -104,7 +107,7 @@
                     
                     <div class="portfolio-item" data-category="data">
                         <div class="portfolio-image">
-                            <img src="assets/img/data-analysis.png" alt="Data Analysis Project" class="project-screenshot">
+                            <img src="src/img/data-analysis.png" alt="Data Analysis Project" class="project-screenshot">
                         </div>
                         <div class="portfolio-content">
                             <h3 class="portfolio-item-title">Data Analysis Project</h3>
@@ -118,11 +121,11 @@
                     </div>
                     <div class="portfolio-item" data-category="design">
                         <div class="portfolio-image">
-                            <img src="assets/img/prompting.png" alt="System Design Project" class="project-screenshot">
+                            <img src="src/img/prompting1.png" alt="System Design Project" class="project-screenshot">
                         </div>
                         <div class="portfolio-content">
                             <h3 class="portfolio-item-title">Prompting</h3>
-                            <p class="portfolio-item-desc">Create a watch website using HTML, CSS, and JS. Javascript coding with the help of Gemini AI.</p>
+                            <p class="portfolio-item-desc">Create a puzzle game website using html, css, and js. Javascript coding with the help of Gemini AI.</p>
                             <div class="portfolio-tags">
                                 <span class="tag">HTML/CSS</span>
                                 <span class="tag">Gemini AI</span>
@@ -133,6 +136,7 @@
                 </div>
             </div>
         </section>
+        <!--Certificates Section-->
         <section id="certificates" class="section certificates-section">
             <div class="container">
                 <h2 class="section-title">
@@ -143,7 +147,7 @@
                 <!-- Certificate 1 -->
                     <div class="certificate-item">
                         <div class="certificate-image">
-                        <img src="assets/img/dicoding-prompt-enginer.jpg" alt="Web Development Certificate" class="certificate-img">
+                        <img src="src/img/dicoding-prompt-enginer.jpg" alt="Web Development Certificate" class="certificate-img">
                         <div class="certificate-overlay">
                             <span class="certificate-icon"></span>
                         </div>
@@ -162,7 +166,7 @@
                 <!-- Certificate 2 -->
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="assets/img/sertifikat_course_python-1.jpg" alt="Data Analysis Certificate" class="certificate-img">
+                        <img src="src/img/sertifikat_course_python-1.jpg" alt="Data Analysis Certificate" class="certificate-img">
                         <div class="certificate-overlay">
                             <span class="certificate-icon"></span>
                         </div>
@@ -181,7 +185,7 @@
                 <!-- Certificate 3 -->
                 <div class="certificate-item">
                     <div class="certificate-image">
-                        <img src="assets/img/ai sertifikat-1.jpg" alt="UI/UX Design Certificate" class="certificate-img">
+                        <img src="src/img/ai sertifikat-1.jpg" alt="UI/UX Design Certificate" class="certificate-img">
                         <div class="certificate-overlay">
                             <span class="certificate-icon"></span>
                         </div>
@@ -263,7 +267,7 @@
         </div>
         </section>
     </main>
-    
+    <!--footer-->
     <footer>
         <div class="container">
             <p>&copy; <span id="currentYear"></span> Barra Amajida Rizq. All rights reserved.</p>
@@ -279,6 +283,6 @@
     </button>
     
     <!-- JavaScript -->
-    <script src="assets/script.js"></script>
+    <script src="src/script.js"></script>
 </body>
 </html>
